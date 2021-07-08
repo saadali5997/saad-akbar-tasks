@@ -1,3 +1,7 @@
+'''
+Task6. Reverse each word of a string passed as a script argument.
+'''
+
 import sys
 
 def main(argv):

@@ -1,3 +1,7 @@
+'''
+Task4. Check if a key exists in a dictionary or not
+'''
+
 import sys
 
 def main(argv):
@@ -13,5 +17,5 @@ def main(argv):
         print("Key does not exist")
 
 if __name__ == "__main__": 
-    print("Task4. Check if a key exists in a dictionary or not")
+    
     main(sys.argv[1:])
