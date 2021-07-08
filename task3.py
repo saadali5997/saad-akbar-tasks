@@ -5,7 +5,7 @@ for i in range (1,16):
 
 for i in range (1,25):
     quaddict[i] = i*i*i*i
-
+print("Task3. Filer the even values out of a Dictionary.")
 print("Square Dict. The dictionary where value is key squared")
 print(squaredict)
 print("Quad Dict. The dictionary where the value is key quadrupled (key^4)")

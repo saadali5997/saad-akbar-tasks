@@ -12,5 +12,6 @@ def main(argv):
     else:
         print("Key does not exist")
 
-if __name__ == "__main__":
-   main(sys.argv[1:])
+if __name__ == "__main__": 
+    print("Task4. Check if a key exists in a dictionary or not")
+    main(sys.argv[1:])
