@@ -2,7 +2,6 @@
 Task3. Filter the even values out of a Dictionary.
 '''
 
-
 squaredict = {}
 quaddict = {}
 for i in range (1,16):
@@ -33,8 +32,8 @@ for key in commondict:
     
 for tuple in removelist:
     commondict.pop(tuple[0],tuple[1])
-#adding an odd value to the dictionary because all other values are even. Checking to see if this value will remain
-#after even values are deleted
+# Adding an odd value to the dictionary because all other values are even. Checking to see if this value will remain
+# after even values are deleted
 commondict[16]= 3
 
 print("Commondict after removing even values")
