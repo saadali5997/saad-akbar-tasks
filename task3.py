@@ -14,8 +14,8 @@ def oldmain():
     for i in range (1,25):
         quaddict[i] = i*i*i*i
 
-    print("Square Dict. The dictionary where value is key squared.{}".format(squaredict))
-    print("Quad Dict. The dictionary where the value is key quadrupled (key^4).{}".format(quaddict))
+    print(f"Square Dict. The dictionary where value is key squared.{squaredict}")
+    print(f"Quad Dict. The dictionary where the value is key quadrupled (key^4).{quaddict}")
 
 
     commondict = {}
@@ -25,7 +25,7 @@ def oldmain():
                 commondict[i] = squaredict[i] + quaddict[i]
         except:
             continue
-    print("Commondict. The dictionary of two added values.{}".format(commondict))
+    print(f"Commondict. The dictionary of two added values.{commondict}")
     removelist = []
     for key in commondict: 
         if(commondict[key] % 2 == 0):
@@ -38,7 +38,7 @@ def oldmain():
     # after even values are deleted
     commondict[16]= 3
 
-    print("Commondict after removing even values {}".format(commondict))
+    print(f"Commondict after removing even values {commondict}")
 
 def main(dict1,dict2):
     dict3 = {}
