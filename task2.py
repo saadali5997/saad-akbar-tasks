@@ -13,10 +13,9 @@ def main(range1low,range1high,range2low,range2high):
     for i in range (range2low,range2high+1):
         quaddict[i] = i*i*i*i
 
-    print("Square Dict. The dictionary where value is key squared")
-    print(squaredict)
-    print("Quad Dict. The dictionary where the value is key quadrupled (key^4)")
-    print(quaddict)
+    print(f"Square Dict. The dictionary where value is key squared.{squaredict}")
+    print(f"Quad Dict. The dictionary where the value is key quadrupled (key^4).{quaddict}")
+
 
     commondict = {}
     for i in range(range2low, range2high):
@@ -25,8 +24,7 @@ def main(range1low,range1high,range2low,range2high):
                 commondict[i] = squaredict[i] + quaddict[i]
         except:
             continue
-    print("Commondict. The dictionary of two added values")
-    print(commondict)
+    print(f"Commondict. The dictionary of two added values.{commondict}")
     return commondict
 if  __name__ == "__main__":
     main(1,15,1,25)
