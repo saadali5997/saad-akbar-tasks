@@ -9,8 +9,7 @@ def main():
     for i in range (1,16):
         squaredict[i] = i*i
 
-    print("Square Dict. The dictionary where value is key squared")
-    print(squaredict)
+    print("Square Dict. The dictionary where value is key squared.{}".format(squaredict))
     return squaredict
 if __name__ == '__main__':
     main()
